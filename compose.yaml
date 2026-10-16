@@ -1,6 +1,6 @@
 services:
   gitea:
-    image: gitea/gitea:latest
+    image: gitea/gitea:28.0.0
     container_name: gitea
     environment:
       - DB_TYPE=postgres
